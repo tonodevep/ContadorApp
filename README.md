@@ -31,6 +31,7 @@ Una app minimalista desarrollada con Jetpack Compose que demuestra los fundament
 ---
 
 ## 📁 Estructura del proyecto
+```bash
 
 ContadorCompose/
 ├── app/
@@ -44,6 +45,7 @@ ContadorCompose/
 ├── build.gradle → dependencias y configuración del proyecto
 └── settings.gradle → configuración de módulos
 
+```
 ---
 
 ## 📲 Perfil de despliegue
