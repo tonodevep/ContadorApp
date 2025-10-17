@@ -1,12 +1,12 @@
 # 📱 Contador Compose
 
-Una app minimalista desarrollada con Jetpack Compose que demuestra los fundamentos del desarrollo móvil en Android.
+Una app minimalista desarrollada con Jetpack Compose que demuestra los fundamentos del desarrollo móvil en Android con un simple contador.
 
 ---
 
 ## 🧾 Datos del proyecto
 
-- **📛 Nombre:** Contador Compose
+- **📛 Nombre:** Contador
 - **👤 Autor/a:** Juan Antonio "Toño" Tejera
 - **📅 Fecha:** 17 de octubre de 2025
 - **📱 Versión Android:** targetSdk 34, minSdk 24
@@ -32,9 +32,17 @@ Una app minimalista desarrollada con Jetpack Compose que demuestra los fundament
 
 ## 📁 Estructura del proyecto
 
-
-
-
+ContadorCompose/
+├── app/
+│ ├── src/
+│ │ ├── main/
+│ │ │ ├── java/com/example/contador/
+│ │ │ │ └── MainActivity.kt → lógica principal y UI
+│ │ │ └── res/
+│ │ │ └── values/
+│ │ │ └── themes.xml → configuración de tema
+├── build.gradle → dependencias y configuración del proyecto
+└── settings.gradle → configuración de módulos
 
 ---
 
@@ -69,10 +77,13 @@ Una app minimalista desarrollada con Jetpack Compose que demuestra los fundament
 - Estructura moderna de proyectos Android.
 
 **⚠️ Limitaciones encontradas:**
-- El emulador puede tardar en iniciar en equipos con pocos recursos como el mío.
+- El emulador tarda en iniciar en equipos con pocos recursos como el mío.
 
 ---
 
+## Autor
+Este proyecto ha sido desarrollado por Juan Antonio "Toño" Tejera González.  
 
+Github de Toño: [![Web](https://img.shields.io/badge/GitHub-tonodevep-14a1f0?style=for-the-badge&logo=github&logoColor=white&labelColor=101010)](https://github.com/tonodevep/)
 
 
